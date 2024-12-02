@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+.con{
+    max-width: 1200px;
+    margin: auto;
+}
+.top{
+    background: #000;
+    line-height: 50px
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a{
+    color:#fff;
+}
+.social li{
+    border: 2px solid #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    line-height: 27px;
+    text-align: center;
+}
+header{
+    padding: 5px 0;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.logo{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+.banner img{
+    width: 100%;
+}
+nav a{
+    color: #000;
+}
+.banner{
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    width: 30%;
+    color: #fff;
+    background: #0000002d;
+    padding: 20px;
+    font-weight: bold;
+
+}
+.banner-content p{
+    padding: 25px 0;
+}
+.btn{
+    /* position: absolute; */
+    left: 60%;
+    background: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    background:rgb(15, 199, 15) ;
+    color: red;
+}
+
+.news{
+    padding: 50px 0;
+}
+.n-box img{
+    width: 100%;
+}
+.n-box{
+    border:1px solid #ccc;
+    padding: 20px;
+}
+.n-box h3{
+   padding-bottom: 20px;
+}
+.gap{
+    gap: 30px;
+}
+.projects{
+    padding: 10px 0;
+}
+.proj-box img{
+    width: 100%;  
+}
+
+.proj-box{
+    padding: 20px;
+    position: relative;
+}
+.proj-box h4{
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    color: white;
+    font-size: 25px;
+    background: #cccccc69;
+    border: 100%;
+}
+footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+footer .flex{
+    align-items: stretch;
+}
+.footer-box h3{
+    padding: 30px;
+}
+.footer-box li{
+    line-height: 33px;
+}
+.copyright{
+    justify-content: center;
+    display: flex;
+}
